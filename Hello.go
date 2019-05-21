@@ -32,6 +32,10 @@ func DeclareVariable(){
 	fmt.Println("Value of initilized Variable=",x)
 	x=90
 	fmt.Println("Changed value of x  is=",x)
+	y:=x+10
+	fmt.Println("Value of y is=",y)
+	z:=120+x+y //here + is the arithmatic operator
+	fmt.Println("Value of z is=",z)
 }
 
 //Control flow:
